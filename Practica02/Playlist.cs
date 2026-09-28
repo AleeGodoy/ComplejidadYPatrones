@@ -3,7 +3,7 @@ using Practica02.Iterator;
 
 namespace Practica02
 {
-    public class Playlist : Coleccionable, Iterable
+    public class Playlist : Coleccionable
     {
         private List<Comparable> elementos = new List<Comparable>();
 

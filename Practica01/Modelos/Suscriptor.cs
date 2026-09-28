@@ -1,4 +1,7 @@
-﻿namespace Practica01.Modelos
+﻿using Practica01.Interfaces;
+using System;
+
+namespace Practica01.Modelos
 {
     public class Suscriptor : Perfil
     {
@@ -28,8 +31,29 @@
 
         public override string ToString()
         {
-            return $"Suscriptor: {getNombre()}, ID: {getId()}, " +
-                   $"Meses: {mesesDeSuscripcion}, Horas: {horasVistas}";
+            return $"Suscriptor: {nombre} | ID: {id} | Meses: {mesesDeSuscripcion} | Horas: {horasVistas}";
+        }
+
+        // Ejercicio 14
+        public override bool sosIgual(Comparable comparable)
+        {
+            Suscriptor otro = (Suscriptor)comparable;
+
+            return this.horasVistas == otro.horasVistas;
+        }
+
+        public override bool sosMenor(Comparable comparable)
+        {
+            Suscriptor otro = (Suscriptor)comparable;
+
+            return this.horasVistas < otro.horasVistas;
+        }
+
+        public override bool sosMayor(Comparable comparable)
+        {
+            Suscriptor otro = (Suscriptor)comparable;
+
+            return this.horasVistas > otro.horasVistas;
         }
     }
 }

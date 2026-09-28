@@ -15,18 +15,10 @@ namespace Practica01
             Cola cola = new Cola();
 
             Console.WriteLine("Llenando la pila...");
-            FuncionesAct1.llenar(pila);
+            FuncionesAct1.llenarSuscriptores(pila);
 
             Console.WriteLine("Llenando la cola...");
-            FuncionesAct1.llenar(cola);
-
-            Console.WriteLine();
-            Console.WriteLine("INFORMACIÓN DE LA PILA");
-            FuncionesAct1.informar(pila);
-
-            Console.WriteLine();
-            Console.WriteLine("INFORMACIÓN DE LA COLA");
-            FuncionesAct1.informar(cola);
+            FuncionesAct1.llenarSuscriptores(cola);
 
             Console.WriteLine();
             Console.WriteLine("Creando catálogo...");

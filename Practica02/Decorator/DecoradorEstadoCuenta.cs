@@ -20,13 +20,13 @@ namespace Practica02.Decorator
 
             string info = componente.mostrarInfo();
 
-            int posicion = info.IndexOf(" - ");
+            int posicion = info.IndexOf(")");
 
             if (posicion >= 0)
             {
                 return info.Substring(0, posicion)
-                       + $" ({estado})"
-                       + info.Substring(posicion);
+                       + $", {estado})"
+                       + info.Substring(posicion + 1);
             }
 
             return info;

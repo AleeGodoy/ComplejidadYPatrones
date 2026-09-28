@@ -1,11 +1,16 @@
-﻿using Practica02;
+﻿using System;
+using Practica02;
 
 namespace Practica02.Factory
 {
     public class FabricaDeCanales
     {
-        public static Canal crearCanal(string nombre)
+        public Canal crearPorTeclado()
         {
+            Console.WriteLine("Ingrese nombre del canal: ");
+
+            string nombre = Console.ReadLine();
+
             return new Canal(nombre);
         }
     }

@@ -1,4 +1,7 @@
-﻿namespace Practica02
+﻿using Practica02;
+using System;
+
+namespace Practica02
 {
     public abstract class Perfil : Comparable
     {
@@ -21,10 +24,27 @@
             return id;
         }
 
-        public abstract bool sosIgual(Comparable comparable);
+        public virtual bool sosIgual(Comparable comparable)
+        {
+            Perfil otro = (Perfil)comparable;
+            return this.id == otro.id;
+        }
 
-        public abstract bool sosMenor(Comparable comparable);
+        public virtual bool sosMenor(Comparable comparable)
+        {
+            Perfil otro = (Perfil)comparable;
+            return this.id < otro.id;
+        }
 
-        public abstract bool sosMayor(Comparable comparable);
+        public virtual bool sosMayor(Comparable comparable)
+        {
+            Perfil otro = (Perfil)comparable;
+            return this.id > otro.id;
+        }
+
+        public override string ToString()
+        {
+            return $"Perfil: {nombre} | ID: {id}";
+        }
     }
 }

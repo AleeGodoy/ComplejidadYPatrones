@@ -1,6 +1,6 @@
 ﻿namespace Practica02
 {
-    public class Catalogo : Coleccionable
+    public class Catalogo
     {
         private Pila pila;
         private Cola cola;
