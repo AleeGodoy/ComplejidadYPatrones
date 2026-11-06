@@ -1,0 +1,16 @@
+C:\Users\Administrator\Downloads\ComplejidadYPatrones\Practica04\bin\Debug\net10.0\Practica04.exe
+C:\Users\Administrator\Downloads\ComplejidadYPatrones\Practica04\bin\Debug\net10.0\Practica04.deps.json
+C:\Users\Administrator\Downloads\ComplejidadYPatrones\Practica04\bin\Debug\net10.0\Practica04.runtimeconfig.json
+C:\Users\Administrator\Downloads\ComplejidadYPatrones\Practica04\bin\Debug\net10.0\Practica04.dll
+C:\Users\Administrator\Downloads\ComplejidadYPatrones\Practica04\bin\Debug\net10.0\Practica04.pdb
+C:\Users\Administrator\Downloads\ComplejidadYPatrones\Practica04\obj\Debug\net10.0\Practica04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Downloads\ComplejidadYPatrones\Practica04\obj\Debug\net10.0\Practica04.AssemblyInfoInputs.cache
+C:\Users\Administrator\Downloads\ComplejidadYPatrones\Practica04\obj\Debug\net10.0\Practica04.AssemblyInfo.cs
+C:\Users\Administrator\Downloads\ComplejidadYPatrones\Practica04\obj\Debug\net10.0\Practica04.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\ComplejidadYPatrones\Practica04\obj\Debug\net10.0\Practica04.sourcelink.json
+C:\Users\Administrator\Downloads\ComplejidadYPatrones\Practica04\obj\Debug\net10.0\Practica04.dll
+C:\Users\Administrator\Downloads\ComplejidadYPatrones\Practica04\obj\Debug\net10.0\refint\Practica04.dll
+C:\Users\Administrator\Downloads\ComplejidadYPatrones\Practica04\obj\Debug\net10.0\Practica04.pdb
+C:\Users\Administrator\Downloads\ComplejidadYPatrones\Practica04\obj\Debug\net10.0\Practica04.genruntimeconfig.cache
+C:\Users\Administrator\Downloads\ComplejidadYPatrones\Practica04\obj\Debug\net10.0\ref\Practica04.dll
+C:\Users\Administrator\Downloads\ComplejidadYPatrones\Practica04\obj\Debug\net10.0\Practica04.csproj.Up2Date
